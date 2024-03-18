@@ -1,0 +1,58 @@
+.centralizeContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.centralizeContainer + .centralizeContainer{
+    margin-top: 0.5rem;
+}
+
+.container{
+    width: 50%;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: start;
+}
+
+.wrapper input[type=checkbox]{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.wrapper .taskDescription{
+    flex-grow: 1;
+    margin: 16 10px;
+    color: var(--gray-100);
+    font-size: 0.875rem;
+}
+
+.wrapper .taskDescriptionDone{
+    flex-grow: 1;
+    margin: 16 10px;
+    color: var(--gray-300);
+    font-size: 0.875rem;
+    text-decoration: line-through;
+}
+
+.wrapper button{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    border: 0;
+    border-radius: 8px;
+    margin: 0.75rem;
+    padding: 4px;
+    cursor: pointer;
+    color: var(--gray-300);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.wrapper button:hover{
+    background: var(--gray-400);
+    color: var(--danger);
+}

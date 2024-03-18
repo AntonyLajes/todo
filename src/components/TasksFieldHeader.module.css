@@ -1,0 +1,31 @@
+.container{
+    width: 50%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 0.875rem;
+}   
+
+.wrapper div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wrapper div:first-child > span:first-child {
+    color: var(--blue);
+}
+
+.wrapper div:last-child > span:first-child {
+    color: var(--purple);
+}
+
+.wrapper div:first-child > span:last-child, .wrapper div:last-child > span:last-child {
+    color: var(--gray-200);
+    background: var(--gray-400);
+    border-radius: 999px;
+    padding: 2px 12px;
+}

@@ -1,0 +1,25 @@
+.centralizeContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.container{
+    width: 50%;
+    justify-content: center;
+    color: var(--gray-300);
+    text-align: center;
+    border-top: 2px solid var(--gray-300);
+}
+
+.wrapper {
+    padding: 4rem;
+}
+
+.wrapper p{
+    font-weight: bold;
+}
+
+.wrapper p:last-child{
+    font-weight: normal;
+}

@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    background: var(--gray-700);
+}
+
+.name{
+    font-weight: 900;
+    font-size: 2.5rem;
+    gap: 8px;
+    padding: 4.5rem 0;
+}
+
+.name span:first-child{
+    color: var(--blue);
+}
+
+.name span:last-child{
+    color: var(--purple-dark);
+}
